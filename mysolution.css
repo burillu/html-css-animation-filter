@@ -42,3 +42,11 @@
     transform: scale(0.6);
 
 }
+.ex-6-img{
+    transform: transition;
+    transition: all 0s;
+}
+.ex-6-img:hover{
+    filter:grayscale(100%)
+
+}
