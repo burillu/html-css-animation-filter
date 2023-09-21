@@ -30,3 +30,15 @@
     opacity: 0%;
 
 }
+.ex-5-square{
+    transform: transition;
+    transition: all 1s;
+}
+.ex-5-square:hover{
+    transform: scale(1.5);
+
+}
+.ex-5-square:active{
+    transform: scale(0.6);
+
+}
