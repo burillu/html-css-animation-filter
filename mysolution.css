@@ -78,4 +78,13 @@
     border-radius: 12px;
     transform: scale(1.5);
 }
-
+.ex-10-icon.fas.fa-circle-notch {
+    animation-name: never-ending-rotate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+@keyframes never-ending-rotate {
+    from{ transform: rotate(0deg);}
+    to{transform: rotate(360deg);}
+}
